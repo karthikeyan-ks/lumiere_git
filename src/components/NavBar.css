@@ -1,10 +1,10 @@
 .navbar {
   background-color: #1f515600;
-  height: 80px;
+  height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   position: sticky;
   top: 0;
   z-index: 20;
@@ -20,13 +20,13 @@
 }
 .smalllogo{
  
-  width: 9%;
+  width: 6%;
 }
 .nav-logo {
   
   color: #0091ff;
   align-items: center;
-  margin-left: 40px;
+  margin-left: 10px;
   cursor: pointer;
   text-decoration: none;
   font-size: 1rem;
@@ -57,6 +57,7 @@
 .nav-item {
   line-height: 40px;
   margin-right: 1rem;
+ 
 }
 
 .nav-item:after {

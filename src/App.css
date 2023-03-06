@@ -27,21 +27,28 @@ p {
   width: 40%;
   justify-content: flex-end;
 }
-.logolumiere{
+.LUMI{
   position: relative;
-  left: 50px;
+  left: 180px;
   bottom: -50px;
   width: 100%;
 }
+.RE_23{
+  position: relative;
+  left: 550px;
+  bottom: -39px;
+  width: 90%;
+}
 .sample{
   position: relative;
-  right: -150px;
-  bottom: -100px;
-  width: 40%;
+  right: 250px;
+  bottom: -200px;
+  width: 60%;
   filter:drop-shadow(-16px 16px 100px black);
+ 
 }
 section {
-  height: 100vh;
+  height: 110vh;
   color: white;
   display: flex;
   align-items: center;
@@ -49,11 +56,16 @@ section {
   z-index: -1;
 }
 
-.videoTag{
+.bgimg{
   position: absolute;
   z-index: -3;
   width: 100%;
   filter:brightness(100%);
+}
+.bgwaves{
+  width: 100%;
+  position: relative;
+  z-index: -45;
 }
 .intro{
   background-color: black;

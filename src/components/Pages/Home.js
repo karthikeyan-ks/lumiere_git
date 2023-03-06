@@ -1,9 +1,10 @@
 import React from "react";
 import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 import { useRef } from "react";
-import Logo2 from "./logolumiere.png";
+import Logo2 from "./LUMIE.png";
+import Logo3 from "./RE'23.png";
 import Logo from "./sample.png";
-import sample from './dasc.mp4';
+
 import '../../App.css';
 
 export const Home = () => {
@@ -18,11 +19,12 @@ export const Home = () => {
       <section className='intro' data-scroll data-scroll-speed="4" data-scroll-section>
       <div className='lumiereh1' data-scroll
             data-scroll-direction="horizontal"
-            data-scroll-speed="9"><img className='logolumiere' src={Logo2} alt="lumierelogo" /></div>
+            data-scroll-speed="9"><img className='LUMI' src={Logo2} alt="lumi" /></div>
+      <div className='lumiereh1' data-scroll
+            data-scroll-direction="horizontal"
+            data-scroll-speed="9"><img className='RE_23' src={Logo3} alt="RE_23" /></div>
         <div className='imagesample' data-scroll-section><img className='sample' src={Logo} alt="lumiereicon" /></div>
-      <video className='videoTag' autoPlay loop muted>
-    <source src={sample} type='video/mp4' />
-</video>
+      
       </section>
       
       <section className='contents' data-scroll-section>
