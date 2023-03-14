@@ -4,6 +4,12 @@
   font-size: 3.5rem;
   margin-top: -5%;
 }
+.div3{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 190px;
+  text-align: left;
+}
 body{
   background-image:url('./components/Pages/bgwaves.png');
   background-position: center bottom;
@@ -26,12 +32,47 @@ p {
   font-size: 3rem;
   margin: 1rem;
 }
+.container1{
+  text-align: left;
+}
+.PricesWorth{
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  top: 10px;
+  color: rgb(251, 255, 0);
+  font-size: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: rgb(36, 33, 33);
+}
+.PricesWorth p{
+  margin-bottom: 2px;
+}
+.container1 .info{
+  position: relative;
+  text-align: left;
+  color: #316685;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  
+}
 .div2{
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  justify-content: center;
+  text-align: center;
   background-color: rgb(0, 0, 0);
+  opacity: 50%;
   font-family:Arial, Helvetica, sans-serif;
   font-weight: 600;
   font-size:40px;
-  opacity: 50%;
+  margin-left: 200px;
+  margin-right: 200px;
   color: aqua;
   padding: 10px 10px 10px 10px;
 }
@@ -177,8 +218,22 @@ html.has-scroll-dragging {
   opacity: 1;
   transition: opacity 4s ;
 }
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 775px) {
   .sample{
     width: 100%;
-  }  
+  }
+  .div2{
+    font-size: 20px;
+  }
+  .PricesWorth{
+    margin: auto;
+    font-size: medium;
+    padding: 10px;
+  }
+  .container1 .info p{
+    font-size:10px;
+    justify-content: center;
+    text-align: center;
+    
+  }
 }

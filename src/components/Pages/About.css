@@ -1,0 +1,36 @@
+.container{
+display: block;
+justify-content: center;
+}
+
+p{
+color: white;
+font-size: 20px;
+}
+
+.about{
+    margin-left: 500px;
+    margin-right: 500px;
+    color: aqua;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 120px;
+    padding-bottom: 15px;
+            border-bottom-style: solid;
+            border-bottom-width: 3.1px;
+          
+        
+    
+    
+}
+
+
+.info{
+    position: relative;
+    text-align: center;
+    top: 150px;
+    margin: 50px;
+    
+    font-size: 10px;
+}

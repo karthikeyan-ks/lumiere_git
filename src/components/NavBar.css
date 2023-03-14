@@ -9,6 +9,11 @@
   top: 0;
   z-index: 20;
 }
+
+
+.navbar.scrolled {
+  box-shadow: 0px -3px 5px rgba(0, 0, 0, 0.2); /* set a negative y-offset to make content appear inside navbar */
+}
 .countdown{
   justify-content: right;
   position: relative;
