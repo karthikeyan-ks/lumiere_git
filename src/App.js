@@ -3,8 +3,9 @@ import NavBar from "./components/NavBar";
 import { BrowserRouter as Router,  Route, Routes } from "react-router-dom";
 import { Home } from "./components/Pages/Home";
 import { About } from "./components/Pages/About";
-import { Blog } from "./components/Pages/Blog";
-import { Contact } from "./components/Pages/Contact";
+import { Events } from "./components/Pages/Events";
+import { Workshops } from "./components/Pages/Workshops";
+
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/blog" element={<Events />} />
+            <Route path="/contact" element={<Workshops />} />
+            
           </Routes>
         </div>
       </Router>
