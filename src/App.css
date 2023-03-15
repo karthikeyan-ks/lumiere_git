@@ -29,7 +29,7 @@ h1{
   font-weight: bolder;
 }
 p {
-  font-size: 3rem;
+  font-size: 3vw;
   margin: 1rem;
 }
 .container1{
@@ -223,17 +223,34 @@ html.has-scroll-dragging {
     width: 100%;
   }
   .div2{
-    font-size: 20px;
+    font-size: 5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    margin-left: 20px;
+  margin-right: 20px;
   }
   .PricesWorth{
     margin: auto;
-    font-size: medium;
+    font-size: 5vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
     padding: 10px;
   }
   .container1 .info p{
-    font-size:10px;
-    justify-content: center;
-    text-align: center;
+    font-size:5vw;
     
+    text-align: center;
+    padding-left: 50vw;
+    padding-right: 50vw;
+  }
+  .container1 .info{
+    font-size:5vw;
+    text-align: left;
+    padding-left: 50vw;
+    padding-right: 50vw;
   }
 }
