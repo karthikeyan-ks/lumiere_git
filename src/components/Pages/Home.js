@@ -1,7 +1,5 @@
 import React from "react";
-
 import Logo from "./sample.webp";
-
 import '../../App.css';
 
 export const Home = () => {
@@ -20,6 +18,7 @@ export const Home = () => {
                <br></br>Prices Worth <br></br><p>363K</p><br></br>
              </div>
           </div>
+          
           <div className='div3'>
               <div className="container1">
                   <div className="about">

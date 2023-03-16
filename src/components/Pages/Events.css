@@ -7,7 +7,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding: 2em;
+  padding: 1vh;
 }
 a{
   display: block;
@@ -21,7 +21,7 @@ a{
   position: relative;
   justify-content: center;
   text-align: center;
-  top: 20px;
+  top: 80px;
   padding-bottom: -1px;
           border-bottom-style: solid;
           border-bottom-width: 3.1px;
@@ -35,7 +35,7 @@ a{
   justify-content: space-around;
     flex-wrap: wrap;
   width: 100%;
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
 
@@ -49,8 +49,8 @@ a{
   align-items: center;
   justify-content: center;
   color: white;
-  padding: 10px;
-  margin: 20px;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 
@@ -89,7 +89,7 @@ a{
   background-size: cover;
 }
 .card-title{
-  font-size: 25px;
+  font-size: 3vh;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.493);;
 }
 .event-card :hover .event-card img{
@@ -114,17 +114,21 @@ a{
     margin-top: 400px;
   }
   .events-lists1{
+   
     flex-direction: column;
   }
   .card-title{
-    font-size: 25px;
+    font-size: 3vh;
   }
   .events-lists2{
-    margin-top: 0;
+   
     flex-direction: column;
   }
   .event-card{
+    justify-content: center;
     width: 100%;
-    margin-bottom: 1em;
+    margin-top: 30px;
+    margin-bottom: 20px;
+
   }
 }

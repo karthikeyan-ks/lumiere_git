@@ -16,6 +16,7 @@ font-size: 20px;
     justify-content: center;
     text-align: center;
     top: 120px;
+    font-size: 5vh;
     padding-bottom: 15px;
             border-bottom-style: solid;
             border-bottom-width: 3.1px;
@@ -30,7 +31,20 @@ font-size: 20px;
     position: relative;
     text-align: center;
     top: 150px;
-    margin: 50px;
+    margin: 10px;
     
-    font-size: 10px;
+    font-size: 10vh;
+}
+@media only screen and (max-width: 775px) {
+    .about{
+        position: relative;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        top: 120px;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    
 }
