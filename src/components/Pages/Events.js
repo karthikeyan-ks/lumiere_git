@@ -8,7 +8,7 @@ export const Events = () => {
       <section id='events-page'>
       <div className='events-title'>
 
-        <h4>EVENTS</h4>
+        <h4>Events</h4>
 
       </div>
       <div className='events-lists1'>

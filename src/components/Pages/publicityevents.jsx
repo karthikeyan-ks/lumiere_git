@@ -8,7 +8,7 @@ function PublicityEvents() {
     <>
       
       <div className='Generalevents'>
-        <h1><u>PUBLICIT</u>Y EVENTS</h1>
+        <h1><u>PUBLICITY EVENTS</u></h1>
       </div>
       <div className="cards-list">
         <div className="card 1">

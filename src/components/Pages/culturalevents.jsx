@@ -8,7 +8,7 @@ function CulturalEvents() {
     <>
       
       <div className='Generalevents'>
-        <h1><u>CULTURA</u>L EVENTS</h1>
+        <h1><u>CULTURAL EVENTS</u></h1>
       </div>
       <div className="cards-list">
         <div className="card 1">

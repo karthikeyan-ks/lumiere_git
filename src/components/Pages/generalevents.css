@@ -16,23 +16,23 @@
 }
 
 .Generalevents h1 {
-    font-size: 2rem;
+    font-size: 5vh;
     text-align: center;
-    margin: 100px 0 0;
+    margin: 130px 0 0;
     color: #ffffff;
 }
 
   @media screen and (max-width: 768px) {
     .Generalevents h1 {
-      font-size: 1.5rem;
-      margin-top: 10%;
+      font-size: 4vh;
+      margin-top: 20%;
     }
   }
   
   @media screen and (max-width: 576px) {
     .Generalevents h1 {
-      font-size: 1.2rem;
-      margin-top: 15%;
+      font-size: 3vh;
+      margin-top: 45%;
     }
   }
 

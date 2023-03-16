@@ -9,7 +9,7 @@ function GeneralEvents() {
     <>
       
       <div className='Generalevents'>
-        <h1><u>GENERA</u>L EVENTS</h1>
+        <h1><u>GENERAL EVENTS</u></h1>
       </div>
       <div className="cards-list">
         <div className="card 1">

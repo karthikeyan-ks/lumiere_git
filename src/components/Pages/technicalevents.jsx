@@ -8,7 +8,7 @@ function TechnicalEvents() {
     <>
       
       <div className='Generalevents'>
-        <h1><u>TECHNICA</u>L EVENTS</h1>
+        <h1><u>TECHNICAL EVENTS</u></h1>
       </div>
       <div className="cards-list">
         <div className="card 1">
