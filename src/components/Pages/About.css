@@ -1,6 +1,11 @@
-.container{
+.containerabout{
 display: block;
-justify-content: center;
+position: relative;
+    justify-content: center;
+    text-align: center;
+    top:120px;
+    
+ 
 }
 
 p{
@@ -45,6 +50,14 @@ font-size: 20px;
         margin-left: 50px;
         margin-right: 50px;
         
+    }
+    .info{
+        position: relative;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+       
+        padding-bottom: 70px;
     }
     
 }

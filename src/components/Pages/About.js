@@ -1,13 +1,14 @@
 import React from "react";
 import './About.css';
+import { motion } from "framer-motion";
 
 export const About = () => {
   return (
-    <div className="container">
-      <div className="about">
+    <div className="containerabout">
+      <motion.div initial={{ y: -250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }} className="about">
       <h4>About</h4>
-      </div>
-      <div className="info">
+      </motion.div>
+      <motion.div initial={{ y: 250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }} className="info">
        <p> Lumiere is the celebration of life. <br></br>
         We celebrate Lumiere with the purpose of life which is not merely survival, but to thrive and do it 
         with some passion and love, which results in a game, The game of life. We are setting up the stage to find yourself in these cultural 
@@ -17,7 +18,7 @@ export const About = () => {
         Lumiere ‘23 will not just welcome the 'future engineers', this is for all students who have the courage to show and tell what they can 
         do if given proper stages. A place where people from all walks of life can gather and revel in their comfort. Lumiere’23 is an 
         opportunity, a platform, to show you the path, so that all may benefit. Lumiere’23 is something you wouldn't want to miss.</p>
-    </div>
+    </motion.div>
     </div>
   );
 };

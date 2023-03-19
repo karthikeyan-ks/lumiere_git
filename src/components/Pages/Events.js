@@ -1,17 +1,18 @@
 import React from "react";
 import './Events.css';
+import { motion } from "framer-motion";
 
 
 export const Events = () => {
   return (
     <>
-      <section id='events-page'>
+      <motion.section initial={{ y: -250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }} id='events-page'>
       <div className='events-title'>
 
-        <h4>Events</h4>
+        <h4>EVENTS</h4>
 
       </div>
-      <div className='events-lists1'>
+      <motion.div initial={{ x: 250 }} animate={{ x: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }} className='events-lists1'>
       <a className='event-card' id="card-general" href="./generalevents"><div class="card-content">
             <h2 class="card-title"><a href="./generalevents">GENERAL EVENTS</a></h2>
 
@@ -38,9 +39,9 @@ export const Events = () => {
 
           </div>
         </a>
-      </div>
+      </motion.div>
 
-    </section>
+    </motion.section>
     
     </>
   );

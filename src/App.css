@@ -233,8 +233,12 @@ html.has-scroll-dragging {
   transition: opacity 4s ;
 }
 @media only screen and (max-width: 775px) {
+  .container{
+    position: relative;
+    top: 20px;
+  }
   .sample{
-    
+    width: 80%;
   }
   .div2{
     font-size: 5vw;
@@ -260,7 +264,6 @@ html.has-scroll-dragging {
     text-align: center;
     top: 150px;
     margin: 10px;
-    
     font-size: 10vh;
 }
 }

@@ -1,11 +1,12 @@
 import React from 'react';
 import './generalevents.css';
 import quiz from "./images/quiz.webp";
+import { motion } from "framer-motion";
 
 
 function PublicityEvents() {
   return (
-    <>
+    <motion.div initial={{ y: 250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }}>
       
       <div className='Generalevents'>
         <h1><u>PUBLICITY EVENTS</u></h1>
@@ -49,7 +50,8 @@ function PublicityEvents() {
 
 
       </div>
-    </>
+      &nbsp;
+    </motion.div>
   );
 }
 

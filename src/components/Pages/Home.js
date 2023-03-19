@@ -1,24 +1,27 @@
 import React from "react";
 import Logo from "./sample.webp";
 import '../../App.css';
+import { motion } from "framer-motion";
 
 export const Home = () => {
   
   return (
     
       
-      <>
+      <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} >
         <div className='container'>
-          <div>
+          <motion.div initial={{ y: -250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }}>
           <img className='sample' src={Logo} alt="lumiereicon" />
-          </div>
+          </motion.div>
           <div className='div2'>
                   National Level Techno-Cultural Fest
              <div className="PricesWorth">
                <br></br>Prices Worth <br></br><p>363K</p><br></br>
              </div>
           </div>
-          
+          <div>
+            
+          </div>
           <div className='div3'>
               <div className="container1">
                   <div className="about">
@@ -39,7 +42,7 @@ export const Home = () => {
             </div>
           </div>
         </div>
-      </>
+      </motion.div>
       
       
 

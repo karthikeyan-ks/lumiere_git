@@ -95,7 +95,7 @@
 
 .nav-item .active {
   color: #0091ff;
-  border: 2px solid #0091ff;
+  font-size: 2.3vh;
  
 }
 
@@ -149,12 +149,12 @@
   .nav-icon {
     display: block;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 0px;
+    right: 10px;
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
-    color: #ffdd40;
+    color: #00d9ff;
   }
   .countdown{
     display: flex;
