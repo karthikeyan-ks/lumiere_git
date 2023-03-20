@@ -22,6 +22,7 @@ export default function Swipper() {
   return (
     <div className="swipper-wrapper">
       <Swiper
+        loop={true}
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
