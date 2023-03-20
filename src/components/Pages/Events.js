@@ -6,13 +6,13 @@ import { motion } from "framer-motion";
 export const Events = () => {
   return (
     <>
-      <motion.section initial={{ y: -250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }} id='events-page'>
+      <motion.section initial={{ y: 250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }} id='events-page'>
       <div className='events-title'>
 
         <h4>EVENTS</h4>
 
       </div>
-      <motion.div initial={{ x: 250 }} animate={{ x: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }} className='events-lists1'>
+      <div className='events-lists1'>
       <a className='event-card' id="card-general" href="./generalevents"><div class="card-content">
             <h2 class="card-title"><a href="./generalevents">GENERAL EVENTS</a></h2>
 
@@ -39,7 +39,7 @@ export const Events = () => {
 
           </div>
         </a>
-      </motion.div>
+      </div>
 
     </motion.section>
     

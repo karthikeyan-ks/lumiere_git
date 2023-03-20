@@ -1,0 +1,53 @@
+
+
+:root {
+    --swiper-theme-color: #ffffff;
+}
+
+.swipper-wrapper{
+    position: relative;
+    
+    width: 100vw;
+    height: 100vh;
+    object-fit:contain;
+}
+
+.mySwiper {
+    
+    
+    object-fit:contain;
+}
+
+.swipper-img-container {
+    width: 100vw;
+    height: 100vh;
+    object-fit:contain;
+}
+
+.swipper-img-container img {
+    width: 100vw;
+    height: 100vh;
+    object-fit:contain;
+}
+
+
+
+@media only screen and (max-width: 775px) {
+    .swipper-wrapper{
+        top: -150px;
+    }
+    .mySwiper {
+        position: relative;
+        
+    }
+    :root {
+        --swiper-pagination-bottom: auto;
+        --swiper-pagination-top: 400px;
+}
+
+    
+    
+    
+    
+    
+}

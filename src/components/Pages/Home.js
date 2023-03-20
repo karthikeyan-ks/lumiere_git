@@ -2,12 +2,14 @@ import React from "react";
 import Logo from "./sample.webp";
 import '../../App.css';
 import { motion } from "framer-motion";
+import Footer from "../Footer";
+import Swipper from "../Swipper";
 
 export const Home = () => {
   
   return (
     
-      
+      <>
       <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} >
         <div className='container'>
           <motion.div initial={{ y: -250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }}>
@@ -20,7 +22,7 @@ export const Home = () => {
              </div>
           </div>
           <div>
-            
+          <Swipper/>
           </div>
           <div className='div3'>
               <div className="container1">
@@ -43,9 +45,10 @@ export const Home = () => {
           </div>
         </div>
       </motion.div>
+      <Footer className='footer'/>
       
       
-
+      </>
   
   );
 };

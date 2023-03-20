@@ -1,5 +1,7 @@
 .containerabout{
-display: block;
+display: flex;
+flex-direction: column;
+align-items: center;
 position: relative;
     justify-content: center;
     text-align: center;

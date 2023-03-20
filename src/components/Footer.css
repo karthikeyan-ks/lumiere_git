@@ -1,0 +1,125 @@
+.footer-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0px;
+    position: relative;
+    
+  }
+  .socialicons{
+    position: relative;
+    justify-content: left;
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    left: 6px;
+  }
+  .logo-container {
+    position: relative;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    
+  }
+  
+  .logo {
+    width: 25vh;
+    margin-right: 1rem;
+    position: relative;
+    left: 10px;
+  }
+  
+  .text {
+    text-align: left;
+  
+  }
+ 
+  .contactus{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .logo2{
+    position: relative;
+  margin-bottom: 10px;
+    left: 120px;
+    width: 5vh;
+    align-items: center;
+  }
+  .social-link {
+    display: inline-block;
+    color: white;
+    margin: 0 0.5rem;
+    /* margin-left: ;0.5rem; */
+   margin-bottom: 5rem;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .social-link:hover {
+    transform: translateY(-3px);
+  }
+  
+  .socialicon {
+    justify-content: left;
+  }
+  .location{
+    font-size: 3vh;
+    text-align: right;
+    margin-right: 15px;
+  }
+  .contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contact-info {
+    font-size: 2vh;
+    text-align: right;
+    
+  
+  }
+  @media only screen and (max-width: 775px) {
+    .footer-container {
+      flex-direction: column;
+      padding-bottom: 16px;
+    }
+    .logo-container {
+      align-items: center;
+
+    }
+    .text {
+      text-align: center;
+    
+    }
+    .logo2{
+      margin-bottom: 10px;  
+      left:0px;
+    }
+    .socialicons{
+      justify-content: left;
+      left: 0px;
+    }
+    .contactus{
+      align-items: center;
+    }
+    .contact-info {
+      text-align: center;
+    }
+    .location{
+      text-align: center;
+      margin-right: 0px;
+
+    }
+
+  }
+
+  

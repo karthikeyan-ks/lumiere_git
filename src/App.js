@@ -10,6 +10,7 @@ import TechnicalEvents from "./components/Pages/technicalevents";
 import CulturalEvents from "./components/Pages/culturalevents";
 import PublicityEvents from "./components/Pages/publicityevents";
 
+
 function App() {
   return (
     <>
@@ -30,6 +31,8 @@ function App() {
           </Routes>
         </div>
       </Router>
+      
+
   </>
   );
 }

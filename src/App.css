@@ -20,8 +20,19 @@
 .div3{
   display: flex;
   justify-content: center;
+  
   margin-bottom: 190px;
   text-align: left;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
 body{
   background-image:url('./components/Pages/bgwaves.png');
@@ -46,7 +57,7 @@ p {
   margin: 1rem;
 }
 .container1{
-  text-align: left;
+  text-align: justify;
   margin: 20px;
 }
 .PricesWorth{
@@ -67,7 +78,7 @@ p {
 }
 .container1 .info{
   position: relative;
-  text-align: left;
+  text-align: justify;
   color: #316685;
   justify-content: left;
   display: flex;
@@ -240,6 +251,9 @@ html.has-scroll-dragging {
   .sample{
     width: 80%;
   }
+  .div3{
+    margin-top: -400px;
+  }
   .div2{
     font-size: 5vw;
     display: flex;
@@ -259,11 +273,14 @@ html.has-scroll-dragging {
     text-align: center;
     padding: 10px;
   }
-  .info{
+  .div3 .info{
     position: relative;
-    text-align: center;
+    text-align:justify;
     top: 150px;
-    margin: 10px;
-    font-size: 10vh;
+    margin: 30px;
+    font-size: 50px;
+}
+.info p{
+  font-size: 2vh;
 }
 }
