@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import quiz from "./images/quiz.webp";
 import './generalevents.css';
-
+import { Link} from 'react-router-dom';
 
 
 export const Workshops = () => {
@@ -15,17 +15,20 @@ export const Workshops = () => {
       <div className="cards-list">
         <div className="card 1">
           <div className="card_image"> <img src={quiz} alt="Quiz" /> </div>
+          <h6><Link to="/Ui" state={{eventType:"workshop",eventName:"Quiz"}}>Quiz</Link></h6>
         </div>
 
         <div className="card 2">
           <div className="card_image">
           <img src={quiz} alt="Quiz" />
+          <h6><Link to="/Ui" state={{eventType:"workshop",eventName:"Quiz"}}>Quiz</Link></h6>
           </div>
         </div>
 
         <div className="card 3">
           <div className="card_image">
             <img src={quiz} alt="Quiz" />
+            <h6><Link to="/Ui" state={{eventType:"workshop",eventName:"Quiz"}}>Quiz</Link></h6>
           </div>
         </div>
 

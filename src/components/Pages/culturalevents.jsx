@@ -6,6 +6,7 @@ import voice from "./cultural/images/voice of lumiere-01.webp";
 import standup from "./cultural/images/STANDUP.webp";
 import manager from "./cultural/images/bb manager.webp";
 import { motion } from "framer-motion";
+import { Link} from 'react-router-dom';
 
 
 function CulturalEvents() {
@@ -20,32 +21,34 @@ function CulturalEvents() {
           <div className="card_image"> 
           <img src={unplugged} alt="unplugged" /> 
           </div>
-          <h6>Unplugged</h6>
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Unplugged"}}>Unplugged</Link></h6>
         </div>
 
         <div className="card 2">
           <div className="card_image">
           <img src={voice} alt="Voice" />
           </div>
-          <h6>Voice of Lumiere</h6>
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Voice of Lumiere"}}>Voice of Lumiere</Link></h6>
         </div>
 
         <div className="card 3">
           <div className="card_image">
             <img src={standup} alt="Standup" />
           </div>
-          <h6>Stand Up Comedy</h6>
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Stand Up Comedy"}}>Stand Up Comedy</Link></h6>
         </div>
 
         <div className="card 4">
           <div className="card_image">
           <img src={quiz} alt="Quiz" />
           </div>
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
         </div>
 
         <div className="card 5">
           <div className="card_image">
           <img src={quiz} alt="Quiz" />
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
           </div>
         </div>
 
@@ -53,7 +56,7 @@ function CulturalEvents() {
           <div className="card_image">
           <img src={manager} alt="Manager" />
           </div>
-          <h6>Best Manager</h6>
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Best Manager"}}>Best Manager</Link></h6>
         </div>
 
         <div className="card 7">
@@ -66,12 +69,14 @@ function CulturalEvents() {
           <div className="card_image">
           <img src={quiz} alt="Quiz" />
           </div>
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
         </div>
 
         <div className="card 9">
           <div className="card_image">
           <img src={quiz} alt="Quiz" />
           </div>
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
         </div>
 
 

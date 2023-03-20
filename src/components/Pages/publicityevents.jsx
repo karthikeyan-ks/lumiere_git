@@ -2,9 +2,11 @@ import React from 'react';
 import './generalevents.css';
 import quiz from "./images/quiz.webp";
 import { motion } from "framer-motion";
+import { Link} from 'react-router-dom';
 
 
 function PublicityEvents() {
+  
   return (
     <motion.div initial={{ y: 250 }} animate={{ y: 0 }} transition={{ delay: 0.2, type: 'spring', stiffness: 100 }}>
       
@@ -14,17 +16,20 @@ function PublicityEvents() {
       <div className="cards-list">
         <div className="card 1">
           <div className="card_image"> <img src={quiz} alt="Quiz" /> </div>
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
         </div>
 
         <div className="card 2">
           <div className="card_image">
           <img src={quiz} alt="Quiz" />
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
           </div>
         </div>
 
         <div className="card 3">
           <div className="card_image">
             <img src={quiz} alt="Quiz" />
+            <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
           </div>
         </div>
 
@@ -37,12 +42,14 @@ function PublicityEvents() {
         <div className="card 5">
           <div className="card_image">
           <img src={quiz} alt="Quiz" />
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
           </div>
         </div>
 
         <div className="card 6">
           <div className="card_image">
           <img src={quiz} alt="Quiz" />
+          <h6><Link to="/Ui" state={{eventType:"publicity",eventName:"Quiz"}}>Quiz</Link></h6>
           </div>
         </div>
 

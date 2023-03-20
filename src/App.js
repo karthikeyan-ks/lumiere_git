@@ -9,6 +9,8 @@ import GeneralEvents from "./components/Pages/generalevents";
 import TechnicalEvents from "./components/Pages/technicalevents";
 import CulturalEvents from "./components/Pages/culturalevents";
 import PublicityEvents from "./components/Pages/publicityevents";
+import Ui from "./components/Pages/Ui";
+import { useEffect, useState } from "react";
 
 
 function App() {
@@ -22,11 +24,12 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/Events" element={<Events />} />
-            <Route path="/Workshops" element={<Workshops />} />
+            <Route path="/Workshops" element={<Workshops  />} />
             <Route path="/generalevents" element={<GeneralEvents />}/>
-            <Route path="/technicalevents" element={<TechnicalEvents />}/>
+            <Route path="/technicalevents" element={<TechnicalEvents/>}/>
             <Route path="/culturalevents" element={<CulturalEvents />}/>
             <Route path="/publicityevents" element={<PublicityEvents />}/>
+            <Route path="/Ui" element={<Ui/>}/>
             
           </Routes>
         </div>
