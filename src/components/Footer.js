@@ -30,7 +30,7 @@ const Footer = () => {
       </div>
       <div className='contactus'>
         <p className="contact-info">Contact Us:<br></br> ceklumiere18@gmail.com | 123-456-7890</p>
-        <a style={{textDecoration:"none"}}href="https://goo.gl/maps/NxdNWtFpu7hPsa3V7"> <img src={location} alt="College Logo" className="logo2" /></a>
+        <a href="https://goo.gl/maps/NxdNWtFpu7hPsa3V7"> <img src={location} alt="College Logo" className="logo2" /></a>
         <a className='location' href="https://goo.gl/maps/NxdNWtFpu7hPsa3V7">Click to see event location</a>
       </div>
     </footer>
