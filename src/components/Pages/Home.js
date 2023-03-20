@@ -4,6 +4,7 @@ import '../../App.css';
 import { motion } from "framer-motion";
 import Footer from "../Footer";
 import Swipper from "../Swipper";
+import { Events } from "./Events";
 
 export const Home = () => {
   
@@ -17,12 +18,15 @@ export const Home = () => {
           </motion.div>
           <div className='div2'>
                   National Level Techno-Cultural Fest
-             <div className="PricesWorth">
-               <br></br>Prices Worth <br></br><p>363K</p><br></br>
-             </div>
           </div>
+          <div className="PricesWorth">
+               <br></br><h6>Prices Worth <br></br><p>363K</p></h6><br></br>
+             </div>
           <div>
           <Swipper/>
+          </div>
+          <div className="homeevents">
+            <Events/>
           </div>
           <div className='div3'>
               <div className="container1">
